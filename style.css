@@ -1,0 +1,113 @@
+/* Шрифт для мейн тайтла ----->*/
+/* font-family: "Bebas Neue", sans-serif; */
+
+* {
+  font-family: "Bebas Neue", sans-serif;
+}
+
+body {
+  background-image: url(/PET_Project/pexels-photo-925743.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  /* background-attachment: fixed; */
+  position: sticky;
+  background-clip: content-box;
+  background-color: #090909;
+  /* max-width: 3000px; */
+  max-height: 2300px;
+}
+.main-title {
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 120px;
+  /* color: white;
+  -webkit-text-stroke: 1px #000000; */
+  /* flex-wrap: wrap; */
+}
+.main-title h1 {
+  align-items: center;
+}
+
+.link-container-1 {
+  margin-top: -30px;
+  text-align: center;
+  font-size: 30px;
+}
+.link-container-2 h3 {
+  -webkit-text-stroke: 0px #e6e6e6;
+}
+.links_wrapper a {
+  padding: 10px;
+}
+.youtube {
+  width: 73px;
+  height: 73px;
+  padding: 15px 0 0 0;
+}
+.btn {
+  background-color: rgb(235, 186, 51);
+  font-weight: bold;
+  font-size: 30px;
+  padding: 20px 60px;
+  border-radius: 8px;
+  border-width: 6px;
+  border-color: black;
+  border-style: hidden;
+  cursor: pointer;
+  margin-top: 40px;
+}
+.link-container-2 {
+  text-align: center;
+  font-size: 40px;
+}
+.about-text {
+  color: #e6e6e6;
+  border-style: solid;
+  font-size: 30px;
+  margin-top: 70px;
+  padding-top: 30px;
+}
+.about-text h3 {
+  font-style: italic;
+  font-size: 50px;
+  text-decoration: underline;
+}
+.offer-text {
+  color: #e6e6e6;
+  border-style: solid;
+  font-size: 30px;
+  margin-top: 70px;
+  padding-top: 30px;
+}
+.offer-text h3 {
+  font-size: 50px;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.container-text {
+  display: grid;
+  grid: wrap;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 100px;
+  grid-gap: 100px;
+  grid-auto-rows: minmax(100px, auto);
+  margin: 50px 30px 30px 30px;
+  font-size: 20px;
+  align-self: self-end;
+}
+.icon {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  grid-column-gap: 30px;
+}
+.icon > img {
+  padding-top: 20px;
+  height: 80px;
+  width: 80px;
+  margin-left: 25px;
+}
+.icon > h4 {
+  font-size: 45px;
+}
