@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url(/First-Web-Page
+  background-image: url(./First-Web-Page
 /pexels-photo-925743.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -64,7 +64,7 @@ body {
 }
 .about-text {
   color: #e6e6e6;
-  border-style: solid;
+/*   border-style: solid; */
   font-size: 30px;
   margin-top: 70px;
   padding-top: 30px;
@@ -76,7 +76,7 @@ body {
 }
 .offer-text {
   color: #e6e6e6;
-  border-style: solid;
+/*   border-style: solid; */
   font-size: 30px;
   margin-top: 70px;
   padding-top: 30px;
